@@ -1,0 +1,84 @@
+Tables for Milk-Dairy App
+
+Basic Tables For our Application.
+
+1. Farmers Table
+This table stores information about the farmers supplying milk.
+
+Column Name	Data Type	    Description
+Farmer ID	INT Primary Key
+Name	        VARCHAR(100)	    Farmer's name
+Contact Info	VARCHAR(100)	    Contact details
+Address	        VARCHAR(255)	    Farmer's address
+Joined Date	DATE	Date        the farmer joined
+
+
+2. Cows Table
+This table keeps track of the cows owned by the farmers.
+
+Column Name	Data Type	Description
+Cow ID	INT	Primary Key
+Farmer ID	INT	        Foreign Key to Farmers
+Breed	        VARCHAR(50)	Breed of the cow
+Birth Date	DATE	        Date of birth
+Milk Yield	DECIMAL(5,2)	Average milk yield (liters)
+
+
+3. Milk Collection Table
+This table records the daily milk collection details.
+
+Column Name	Data Type	Description
+Collection ID	INT	Primary Key
+Farmer ID	INT	Foreign Key to Farmers
+Collection Date	DATE	Date of milk collection
+Quantity	DECIMAL(5,2)	Quantity of milk collected (liters)
+Fat Content	DECIMAL(3,2)	Fat content percentage
+SNF Content	DECIMAL(3,2)	Solids-not-fat percentage
+
+
+
+4. Payments Table
+This table manages payments made to the farmers for their milk supply.
+
+Column Name	Data Type	Description
+Payment ID	INT	        Primary Key
+Farmer ID	INT	        Foreign Key to Farmers
+Payment Date	DATE	        Date of payment
+Amount	        DECIMAL(10,2)	Payment amount
+Payment Method	VARCHAR(50)	Method of payment (cash, bank transfer, etc.)
+
+
+
+5. Quality Control Table
+This table stores the quality control details of the milk collected.
+
+Column Name	Data Type	Description
+QCID	INT	                Primary Key
+Collection ID	INT	        Foreign Key to Milk Collection
+Test Date	DATE	        Date of the quality test
+Bacteria Count	INT	        Bacteria count in the milk
+Adulteration	VARCHAR(50)	Any adulteration detected
+
+
+6. Expenses Table
+This table tracks expenses related to the dairy operations.
+
+Column Name	Data Type	Description
+Expense ID	INT	Primary Key
+Date	DATE	Date of the expense
+Description	VARCHAR(255)	Description of the expense
+Amount	        DECIMAL(10,2)	Expense amount
+Category	VARCHAR(50)	Category of the expense
+
+
+
+7. Employees Table
+This table stores information about the employees working at the dairy.
+
+Column Name	Data Type	Description
+Employee ID	INT	        Primary Key
+Name	        VARCHAR(100)	Employee's name
+Role	        VARCHAR(50)	Job role/position
+Contact Info	VARCHAR(100)	Contact details
+Hire Date	DATE	        Date of hire
+Salary	        DECIMAL(10,2)	Salary amount
