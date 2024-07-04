@@ -23,3 +23,36 @@ insert into Cows(FarmerId,Breed,BirthDate,MilkYeild) values(5,'HF','2019-10-12',
 insert into Cows(FarmerId,Breed,BirthDate,MilkYeild) values(5,'HF','2018-10-12',17);
 insert into Cows(FarmerId,Breed,BirthDate,MilkYeild) values(6,'HF','2017-10-12',11);
 
+
+
+
+
+INSERT INTO Payments (PaymentID, FarmerID, PaymentDate, Amount, PaymentMethod)
+VALUES (1, 1, '2024-07-01', 1500.50, 'Bank Transfer');
+
+INSERT INTO Payments (PaymentID, FarmerID, PaymentDate, Amount, PaymentMethod)
+VALUES (2, 2, '2024-07-02', 1300.75, 'Cash');
+
+INSERT INTO Payments (PaymentID, FarmerID, PaymentDate, Amount, PaymentMethod)
+VALUES (3, 3, '2024-07-03', 1400.00, 'Bank Transfer');
+
+INSERT INTO Payments (PaymentID, FarmerID, PaymentDate, Amount, PaymentMethod)
+VALUES (4, 4, '2024-07-04', 1200.25, 'Check');
+
+INSERT INTO Payments (PaymentID, FarmerID, PaymentDate, Amount, PaymentMethod)
+VALUES (5, 5, '2024-07-05', 1600.00, 'Cash');
+
+INSERT INTO Payments (PaymentID, FarmerID, PaymentDate, Amount, PaymentMethod)
+VALUES (6, 6, '2024-07-06', 1350.50, 'Bank Transfer');
+
+INSERT INTO Payments (PaymentID, FarmerID, PaymentDate, Amount, PaymentMethod)
+VALUES (7, 7, '2024-07-07', 1450.75, 'Cash');
+
+INSERT INTO Payments (PaymentID, FarmerID, PaymentDate, Amount, PaymentMethod)
+VALUES (8, 8, '2024-07-08', 1250.00, 'Check');
+
+INSERT INTO Payments (PaymentID, FarmerID, PaymentDate, Amount, PaymentMethod)
+VALUES (9, 9, '2024-07-09', 1550.25, 'Bank Transfer');
+
+INSERT INTO Payments (PaymentID, FarmerID, PaymentDate, Amount, PaymentMethod)
+VALUES (10, 10, '2024-07-10', 1650.50, 'Cash');
