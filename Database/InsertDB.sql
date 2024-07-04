@@ -56,3 +56,20 @@ VALUES (9, 9, '2024-07-09', 1550.25, 'Bank Transfer');
 
 INSERT INTO Payments (PaymentID, FarmerID, PaymentDate, Amount, PaymentMethod)
 VALUES (10, 10, '2024-07-10', 1650.50, 'Cash');
+
+
+
+INSERT INTO QualityControl (QCID, CollectionID, TestDate, BacteriaCount, Adulteration)
+VALUES (1, 1, '2024-07-01', 250, 'None');
+
+INSERT INTO QualityControl (QCID, CollectionID, TestDate, BacteriaCount, Adulteration)
+VALUES (2, 2, '2024-07-02', 300, 'Water');
+
+INSERT INTO QualityControl (QCID, CollectionID, TestDate, BacteriaCount, Adulteration)
+VALUES (3, 3, '2024-07-03', 200, 'None');
+
+INSERT INTO QualityControl (QCID, CollectionID, TestDate, BacteriaCount, Adulteration)
+VALUES (4, 4, '2024-07-04', 150, 'Starch');
+
+INSERT INTO QualityControl (QCID, CollectionID, TestDate, BacteriaCount, Adulteration)
+VALUES (5, 5, '2024-07-05', 220, 'None');

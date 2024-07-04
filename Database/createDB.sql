@@ -10,3 +10,12 @@ CREATE TABLE Payments (
     Amount DECIMAL(10,2),
     PaymentMethod VARCHAR(50)
 );
+
+
+CREATE TABLE QualityControl (
+    QCID INT PRIMARY KEY,
+    CollectionID INT,
+    TestDate DATE,
+    BacteriaCount INT,
+    Adulteration VARCHAR(50)
+);
