@@ -25,7 +25,12 @@ insert into Cows(FarmerId,Breed,BirthDate,MilkYeild) values(6,'HF','2017-10-12',
 
 
 
-
+INSERT INTO MilkCollection (FarmerId, CollectionDate, Quantity, FatContent, SNFContent) VALUES (1, '2024-07-01', 15.50, 3.5, 8.5);
+INSERT INTO MilkCollection (FarmerId, CollectionDate, Quantity, FatContent, SNFContent) VALUES(2, '2024-07-01', 20.00, 4.0, 9.0);
+INSERT INTO MilkCollection (FarmerId, CollectionDate, Quantity, FatContent, SNFContent) VALUES(3, '2024-07-02', 18.75, 3.8, 8.7);
+INSERT INTO MilkCollection (FarmerId, CollectionDate, Quantity, FatContent, SNFContent) VALUES(1, '2024-07-02', 16.00, 3.6, 8.6);
+INSERT INTO MilkCollection (FarmerId, CollectionDate, Quantity, FatContent, SNFContent) VALUES(2, '2024-07-03', 22.00, 4.2, 9.2);
+INSERT INTO MilkCollection (FarmerId, CollectionDate, Quantity, FatContent, SNFContent) VALUES(3, '2024-07-03', 19.25, 3.9, 8.8);
 
 INSERT INTO Payments (PaymentID, FarmerID, PaymentDate, Amount, PaymentMethod)
 VALUES (1, 1, '2024-07-01', 1500.50, 'Bank Transfer');
