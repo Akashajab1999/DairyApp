@@ -19,3 +19,12 @@ CREATE TABLE QualityControl (
     BacteriaCount INT,
     Adulteration VARCHAR(50)
 );
+
+CREATE TABLE Employee (
+    EmployeeID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Role VARCHAR(50),
+    ContactInfo VARCHAR(100),
+    HireDate DATE,
+    Salary DECIMAL(10,2)
+);

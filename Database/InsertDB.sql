@@ -78,3 +78,10 @@ VALUES (4, 4, '2024-07-04', 150, 'Starch');
 
 INSERT INTO QualityControl (QCID, CollectionID, TestDate, BacteriaCount, Adulteration)
 VALUES (5, 5, '2024-07-05', 220, 'None');
+
+INSERT INTO Employee (EmployeeID, Name, Role, ContactInfo, HireDate, Salary) VALUES (1, 'Amit kedari', 'Manager', 'amit.kedari@example.com', '2021-05-15', 75000.00);
+INSERT INTO Employee (EmployeeID, Name, Role, ContactInfo, HireDate, Salary) VALUES (2, 'utkarsh rane', 'Developer', 'utkarsh.rane@example.com', '2022-03-10', 68000.00);
+INSERT INTO Employee (EmployeeID, Name, Role, ContactInfo, HireDate, Salary) VALUES (3, 'Emily bangar', 'Designer', 'emily.bangar@example.com', '2020-11-20', 72000.00);
+INSERT INTO Employee (EmployeeID, Name, Role, ContactInfo, HireDate, Salary) VALUES (4, 'siddhant yadav', 'Analyst', 'siddhant.yadav@example.com', '2019-08-05', 65000.00);
+INSERT INTO Employee (EmployeeID, Name, Role, ContactInfo, HireDate, Salary) VALUES (5, 'jui bangar', 'HR', 'jui.bangar@example.com', '2018-06-25', 60000.00);
+
