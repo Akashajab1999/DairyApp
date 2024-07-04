@@ -60,19 +60,7 @@ Bacteria Count	INT	        Bacteria count in the milk
 Adulteration	VARCHAR(50)	Any adulteration detected
 
 
-6. Expenses Table
-This table tracks expenses related to the dairy operations.
-
-Column Name	Data Type	Description
-Expense ID	INT	Primary Key
-Date	DATE	Date of the expense
-Description	VARCHAR(255)	Description of the expense
-Amount	        DECIMAL(10,2)	Expense amount
-Category	VARCHAR(50)	Category of the expense
-
-
-
-7. Employees Table
+6. Employees Table
 This table stores information about the employees working at the dairy.
 
 Column Name	Data Type	Description
