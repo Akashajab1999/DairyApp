@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.WebUtilities;
 using Models.Entities;
 using Services.Interface;
-namespace Repositories.Interface;
+namespace Services.Interface;
 
 public class CowService:IService{
 

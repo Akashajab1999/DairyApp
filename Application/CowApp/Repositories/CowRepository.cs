@@ -13,6 +13,9 @@ public class CowRepository:IRepository{
    }
 
    public string connectionString ="";
+
+   string connectionString = "Server=LAPTOP-BHLEHMJJ;Database=your_database_name;User Id=your_username;Password=your_password;";
+
  public List<Cow> GetAllFarmerCow()
     {
         List<Cow> cows = new List<Cow>();
