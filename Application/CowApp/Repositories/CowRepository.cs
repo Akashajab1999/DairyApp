@@ -7,7 +7,7 @@ public class CowRepository:IRepository{
 
   
 
-   string connectionString = "Server=LAPTOP-BHLEHMJJ;Database=DairyFarm;User Id=Akash;Password=password;";
+   string connectionString =  "Data Source=LAPTOP-BHLEHMJJ;Initial Catalog=DairyFarm;User id=Akash;Password=password;Integrated Security=true;TrustServerCertificate=True";
 
  public List<Cow> GetAllFarmerCow()
     {
@@ -18,7 +18,7 @@ public class CowRepository:IRepository{
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                string query = "SELECT * FROM cow";
+                string query = "SELECT * FROM cows";
 
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {

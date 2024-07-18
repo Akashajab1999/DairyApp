@@ -9,12 +9,15 @@ public class CowService:IService{
 
     private readonly IRepository _repo;
 
-    CowService(IRepository repo){
+   public CowService(IRepository repo){
 
       _repo = repo;
     }
-    List<Cow> IService.GetAllFarmerCow()
+
+    public List<Cow> GetAllFarmerCow()
     {
-        return _repo.GetAllFarmerCow();
+         return _repo.GetAllFarmerCow();
     }
+
+  
 }
