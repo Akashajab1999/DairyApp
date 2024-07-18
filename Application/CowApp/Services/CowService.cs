@@ -1,19 +1,20 @@
 using Microsoft.AspNetCore.WebUtilities;
 using Models.Entities;
+using Repositories.Interface;
 using Services.Interface;
 namespace Services.Interface;
 
 public class CowService:IService{
 
 
-    private readonly IService _service;
+    private readonly IRepository _repo;
 
-    CowService(IService service){
+    CowService(IRepository repo){
 
-      _service=service;
+      _repo = repo;
     }
     List<Cow> IService.GetAllFarmerCow()
     {
-        return _service.GetAllFarmerCow();
+        return _repo.GetAllFarmerCow();
     }
 }

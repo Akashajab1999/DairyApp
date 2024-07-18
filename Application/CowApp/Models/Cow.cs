@@ -1,7 +1,7 @@
 
 namespace Models.Entities;
 
-public class Cow{
+public class Cow {
 
     public int Id{get;set;}
 

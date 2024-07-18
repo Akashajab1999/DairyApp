@@ -5,16 +5,9 @@ namespace Repositories.Interface;
 
 public class CowRepository:IRepository{
 
-   private readonly IRepository _repo;
+  
 
-   CowRepository(IRepository repo){
-
-      _repo=repo;
-   }
-
-   public string connectionString ="";
-
-   string connectionString = "Server=LAPTOP-BHLEHMJJ;Database=your_database_name;User Id=your_username;Password=your_password;";
+   string connectionString = "Server=LAPTOP-BHLEHMJJ;Database=DairyFarm;User Id=Akash;Password=password;";
 
  public List<Cow> GetAllFarmerCow()
     {
